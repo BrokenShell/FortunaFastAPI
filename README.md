@@ -29,7 +29,7 @@
 3/3 points: Several new endpoints created -> https://fortuna-fastapi.herokuapp.com/
 3/3 points: Find a todo. The only todo I have is to create a web API
 3/3 points: Write a README
-5/5 points: Connect to a DB - MongoDB
+5/5 points: Connect to a DB - Connected MongoDB to store all generated values
 5/5 points Update all dependent libraries - Cython
 7/7 points: c-extension or deploy it to PyPi.org - Both
 10/10 points: Docker, Fortuna runs great in Docker
