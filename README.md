@@ -16,3 +16,23 @@
     - `/random-below/{stop}` Returns a random integer in the range [0, stop) with flat uniform distribution.
     - `/random-range/{start}/{stop}` Returns a random integer in the range [start, stop) with flat uniform distribution.
     - `/random-range-step/{start}/{stop}/{step}` Returns a random integer in the range [start, stop) by increments of step. Flat uniform distribution. 
+
+## The Challenge
+```
+1/1 point: Get the app to run
+1/1 point: No warnings or errors
+1/1 point: Write a new unit test - MonkeyScope, performance and distribution test suite
+1/1 point: PEP8 linter, PyCharm
+1/1 point: Passes all PEP8 tests
+1/1 point: Clean Branches, my branches are always clean
+1/1 point: Accurate Readme - the library is fully documented -> https://pypi.org/project/Fortuna/
+3/3 points: Several new endpoints created -> https://fortuna-fastapi.herokuapp.com/
+3/3 points: Find a todo. The only todo I have is to create a web API
+3/3 points: Write a README
+5/5 points: Connect to a DB - MongoDB
+5/5 points Update all dependent libraries - Cython
+7/7 points: c-extension or deploy it to PyPi.org - Both
+10/10 points: Docker, Fortuna runs great in Docker
+10/10 points: Upgrade a major Dependency -> Updated Storm, the core C++ library
++5 bonus points for transcribing this competition from JS to Python!
+```
