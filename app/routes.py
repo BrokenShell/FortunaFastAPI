@@ -1,17 +1,7 @@
 from fastapi import APIRouter
 import Fortuna
-from app.data import DataBase
 
 router = APIRouter()
-db = DataBase()
-
-
-def store(signature, result):
-    db.store({
-        'signature': signature,
-        'result': result,
-    })
-    return result
 
 
 # Float Functions #
@@ -21,9 +11,7 @@ async def canonical():
     """ Flat uniform distribution
     @return: random Float in range [0.0, 1.0)
     """
-    result = Fortuna.canonical()
-    signature = "canonical()"
-    return store(signature, result)
+    return Fortuna.canonical()
 
 
 @router.get("/random-float/{low}/{high}")
