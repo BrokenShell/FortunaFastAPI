@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app import routes
+import uvicorn
 
 
 APP = FastAPI(
@@ -19,3 +20,6 @@ APP.add_middleware(
     allow_methods=['*'],
     allow_headers=['*'],
 )
+
+if __name__ == '__main__':
+    uvicorn.run(APP)
